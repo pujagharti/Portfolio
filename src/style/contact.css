@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.contact-header
+{
+    font-size: 52px;
+    width: 100%;
+}
+.profile
+{
+    height: auto;
+    width: 30vh;
+    margin-top: 0;
+    margin-right: 0;
+}
+.left2 > p
+{
+    background-color: #fff;
+}
+
+
+
+
+@media (min-width: 1023px) {
+
+.contact-header
+{
+    font-size: 52px;
+    width: 100%;
+}
+.profile
+{
+    width: auto;
+    height: 50vh;
+    margin-top: 0;
+    margin-right: 10vh;
+}
+}

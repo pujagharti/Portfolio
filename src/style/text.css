@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+hr 
+{
+    border-color: teal;
+}
+
+.background-content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 28px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    z-index: 2;
+    background-color: #fff;
+    border-radius: 7.5px;
+}
+
+.text-container
+{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-top: 0px;
+    
+    padding-bottom: 0px;
+    border-left: 2px solid teal;
+    
+    border-right: 2px solid teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+.text-container > .topLiner
+{
+    position: absolute;
+    left: 30px;
+    top: -40px;
+    width: calc(100% - 60px);
+    border-top: 2px solid teal;
+}
+.text-box > .topLiner
+{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 75%;
+    border-top: 2px solid teal;
+    animation: dance 3s ease;
+}
+.text-box
+{
+    width: calc(100% - 30px);
+    height: auto;
+    border-left: 2px solid teal;
+    
+    border-right: 2px solid teal;
+    position: relative;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 15px;
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 19.5px;
+}
+.text-header
+{
+    width: 25%;
+    height: 35px;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+.param
+{
+    min-height: calc(20vh + 30px);
+    color: #000;
+    position: relative;
+    
+
+}
+
+.text-container > .bottomLiner
+{
+    position: absolute;
+    left: 30px;
+    bottom: -38px;
+    width: calc(100% - 60px);
+    border-top: 2px solid teal;
+}
+.text-box > .bottomLiner
+{
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    width: 75%;
+    border-top: 2px solid teal;
+    animation: danceBottom 3s ease;
+}
+
+@keyframes dance {
+    from {right: 25%;}
+    to {right: 0;}
+}
+@keyframes danceBottom {
+    from {left: 25%;}
+    to {left: 0;}
+}
+
+@media (min-width: 1023px) {
+
+.background-content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 28px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    z-index: 2;
+
+}
+.text-container
+{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    padding-top: 0px;
+    
+    padding-bottom: 0px;
+    border-left: 2px solid teal;
+    
+    border-right: 2px solid teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+.text-container > .topLiner
+{
+    position: absolute;
+    left: 30px;
+    top: -40px;
+    width: calc(100% - 60px);
+    border-top: 2px solid teal;
+}
+.text-box > .topLiner
+{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 75%;
+    border-top: 2px solid teal;
+    animation: dance 3s ease;
+}
+.text-box
+{
+    width: calc(100% - 30px);
+    height: auto;
+    border-left: 2px solid teal;
+    
+    border-right: 2px solid teal;
+    position: relative;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 15px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 19.5px;
+}
+.text-header
+{
+    width: 25%;
+    height: 35px;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+.param
+{
+    min-height: calc(20vh + 30px);
+    color: #000;
+    position: relative;
+}
+
+.text-container > .bottomLiner
+{
+    position: absolute;
+    left: 30px;
+    bottom: -38px;
+    width: calc(100% - 60px);
+    border-top: 2px solid teal;
+}
+.text-box > .bottomLiner
+{
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    width: 75%;
+    border-top: 2px solid teal;
+    animation: danceBottom 3s ease;
+}
+
+@keyframes dance {
+    from {right: 25%;}
+    to {right: 0;}
+}
+@keyframes danceBottom {
+    from {left: 25%;}
+    to {left: 0;}
+}
+}
