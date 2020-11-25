@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import About from './About'
 import Experience from './Experience'
 import FrontPage from './FrontPage'
-import Header from './Header'
 import Navs from './Navs'
 
 
@@ -15,16 +14,16 @@ const App = () => {
   return (
     <Fragment>
       <Router>
-        <div className="main">
+        <div className='main'>
           <Navs />
           <Switch>
-            <Route exact path="/">
+            <Route exact path='/'>
               <FrontPage />
             </Route>
-            <Route exact path="/about-me">
+            <Route exact path='/about-me'>
               <About />
             </Route>
-            <Route exact path="/experience">
+            <Route exact path='/experience'>
               <Experience />
             </Route>
           </Switch>
