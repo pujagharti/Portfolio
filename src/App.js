@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import About from './About'
 import Experience from './Experience'
 import FrontPage from './FrontPage'
-import Header from './Header'
 import Navs from './Navs'
 
 

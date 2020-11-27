@@ -9,9 +9,8 @@ import './style/contact.css'
 const Index = () => {
 
   return (
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    
+    <App />
   )
 }
 ReactDOM.render(<Index />, document.getElementById('zone'))
