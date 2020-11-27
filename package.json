@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "MIT",
-  "type": "module",
+  "type":"commonjs",
   "dependencies": {
     "aos": "^2.3.4",
     "parcel-bundler": "^1.12.4",
