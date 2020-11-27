@@ -200,6 +200,7 @@ a:hover
   flex-direction: column;
   flex-wrap: wrap;
   overflow: hidden;
+  color: #000;
   
   
   animation-name: display;

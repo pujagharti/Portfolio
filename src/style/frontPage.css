@@ -100,6 +100,11 @@ span
   from {height: 0;}
   to {height: 35px;}
 }
+.social:hover
+{
+  transition: all 0.5s ease-in;
+  transform: rotate(-10deg);
+}
 
 .card
 {
@@ -126,6 +131,11 @@ span
   margin-right: 5px;
   
 }
+.courses img:hover
+{
+  transition: all 0.5s ease-in;
+  transform: rotate(-10deg);
+}
 
 @media (min-width: 1023px) {
 
@@ -144,6 +154,7 @@ span
     perspective: 1000px;
     background-image: url("./pexels-burst-545043.jpg");
     background-position: right;
+    overflow-y: hidden;
 }
 
 .front-header
