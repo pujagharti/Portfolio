@@ -1,5 +1,5 @@
-import React, { Fragment, useEffect, useRef, lazy, Suspense } from 'react'
-import './style/frontPage.css'
+import React, { Fragment, useEffect, useRef } from 'react'
+import at from './style/at.png'
 
 
 const FrontPage = () => {
@@ -54,7 +54,7 @@ const FrontPage = () => {
             <div className="contact-section">
             <p>follow my social media:</p>
             <p>
-            <img className="social" src={require('./style/at.png')} />
+            <img className="social" src={at} />
             <a href="https://github.com/pujagharti" target="_blank" ><img className="social" src={require('./style/github.png')} /></a>
             <a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img className="social" src={require('./style/linkedin.png')} /></a>
             </p>

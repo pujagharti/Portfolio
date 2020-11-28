@@ -94,6 +94,9 @@
   padding: 15px;
   color: #000;
   margin-bottom: 30px;
+  background: rgba(184, 176, 167, 0.5);
+  font-weight: 800;
+  font-family: 'Mali', cursive;
 }
 .tech-article > h1
 {
@@ -114,7 +117,8 @@
   font-size: 32px;
   justify-content: center;
   align-items: center;
-  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-family: 'Mali', cursive;
   margin: 0;
   
   overflow: hidden;
@@ -132,7 +136,8 @@
   padding-bottom: 15px;
   font-size: 20.5px;
   color: #000;
-  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-family: 'Mali', cursive;
 }
 .languages
 {
@@ -336,7 +341,8 @@
     flex-direction: column;
     
     background-color: #fff;
-    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-family: 'Mali', cursive;
     color: #fff;
     position: relative;
 
@@ -452,7 +458,8 @@
   font-size: 32px;
   justify-content: center;
   align-items: center;
-  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-family: 'Mali', cursive;
   margin: 0;
   
   overflow: hidden;
@@ -472,7 +479,8 @@
   padding-bottom: 15px;
   font-size: 20.5px;
   color: #000;
-  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-family: 'Mali', cursive;
 }
 .languages
 {

@@ -11,13 +11,15 @@
 .profile
 {
     height: auto;
-    width: 30vh;
+    width: 40vh;
     margin-top: 0;
     margin-right: 0;
+    border-radius: 50%;
 }
 .left2 > p
 {
-    background-color: #fff;
+    background: rgba(184, 176, 167, 0.5);
+    border: 1px solid #000;
 }
 
 
@@ -33,7 +35,7 @@
 .profile
 {
     width: auto;
-    height: 50vh;
+    height: 60vh;
     margin-top: 0;
     margin-right: 10vh;
 }

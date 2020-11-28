@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import { withRouter } from 'react-router-dom'
-import './style/navs.css'
 
 const Navs = ({ history }) => {
 

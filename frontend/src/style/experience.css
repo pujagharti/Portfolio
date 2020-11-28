@@ -73,6 +73,8 @@
     font-weight: 800;
     font-family: 'Mali', cursive;
     text-align: justify;
+    background: rgba(184, 176, 167, 0.5);
+    padding: 15px;
 }
 
 .box-exp-1
@@ -130,8 +132,8 @@
 .course-icon
 {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 15px;
 }
 .course-icon:hover
 {
