@@ -1,6 +1,27 @@
 import React, { Fragment, useEffect, useRef } from 'react'
 import { withRouter } from 'react-router-dom'
 
+import html5 from './style/html-5.png'
+import css3 from './style/css.png'
+import django from './style/django.png'
+import sass from './style/sass.png'
+import github from './style/github.png'
+import linkedin from './style/linkedin.png'
+import photo from './style/received_262920591228311.jpeg'
+import javascript from './style/javascript.png'
+import nodejs from './style/nodejs.png'
+import vertical from './style/vertical-lines.png'
+import postgre from './style/postgresql.png'
+import mysql from './style/mysql.png'
+import mongodb from './style/mongodb.png'
+import python from './style/python.png'
+import reactjs from './style/react.png'
+
+
+
+
+
+
 const About = () => {
 
   const article1 = useRef(null)
@@ -11,7 +32,7 @@ const About = () => {
     if (article1.current) {
       article1.current.style.transition = 'all 0.6s ease-in'
 
-      if (window.scrollY <= 250) {
+      if (window.scrollY <= 350) {
         article1.current.style.background = 'rgba(184, 176, 167, 0.5)'
         article1.current.style.color = '#fff'
         article1.current.style.transform = 'scale(1)'
@@ -26,7 +47,7 @@ const About = () => {
     if (article2.current) {
       
       article2.current.style.transition = 'all 0.6s ease-in'
-      if (window.scrollY >= 200 && window.scrollY <= 700) {
+      if (window.scrollY >= 200 && window.scrollY <= 850) {
         article2.current.style.background = 'rgba(184, 176, 167, 0.5)'
         article2.current.style.color = '#fff'
         article2.current.style.transform = 'scale(1)'
@@ -89,7 +110,7 @@ const About = () => {
                 <span>Html 5</span>
                 <p><a href="https://github.com/pujagharti/SEI50--project-1" target="_blank" >Shooter game</a></p>
               </div>
-              <img src={require("./style/html-5.png")} className="language" width="64px" />
+              <img src={html5} className="language" width="64px" />
             </div>
             
             <div className="lang"><span>CSS3</span>
@@ -99,14 +120,14 @@ const About = () => {
                 <p><a href="https://github.com/pujagharti/sei50-project-2-old-version" target="_blank" >Food life</a></p>
                 <p><a href="https://github.com/pujagharti/sei50-project4" target="_blank" >Emojis</a></p>
               </div>
-              <img src={require("./style/css.png")} className="language" width="64px" />
+              <img src={css3} className="language" width="64px" />
             </div>
             <div className="lang"><span>SASS</span>
               <div className="lang-box">
                 <span>SASS</span>
                 <p><a href="https://github.com/pujagharti/sei-project-3" target="_blank" >Discover your Montreal</a></p>
               </div>
-              <img src={require("./style/sass.png")} className="language" width="64px" />
+              <img src={sass} className="language" width="64px" />
             </div>
             <div className="lang"><span>JavaScript</span>
               <div className="lang-box">
@@ -116,7 +137,7 @@ const About = () => {
                 <p><a href="https://github.com/pujagharti/sei-project-3" target="_blank" >Discover your Montreal</a></p>
                 <p><a href="https://github.com/pujagharti/sei50-project4" target="_blank" >Emojis</a></p>
               </div>
-              <img src={require("./style/javascript.png")} className="language" width="64px" />
+              <img src={javascript} className="language" width="64px" />
             </div>
             <div className="lang"><span>Node Js</span>
               <div className="lang-box">
@@ -124,7 +145,7 @@ const About = () => {
                 <p><a href="https://github.com/pujagharti/sei50-project-2-old-version" target="_blank" >Food life</a></p>
                 <p><a href="https://github.com/pujagharti/sei-project-3" target="_blank" >Discover your Montreal</a></p>
               </div>
-              <img src={require("./style/nodejs.png")} className="language" width="64px" />
+              <img src={nodejs} className="language" width="64px" />
               
             </div>
             <div className="lang"><span>React Js</span>
@@ -134,7 +155,7 @@ const About = () => {
                 <p><a href="https://github.com/pujagharti/sei-project-3" target="_blank" >Discover your Montreal</a></p>
                 <p><a href="https://github.com/pujagharti/sei50-project4" target="_blank" >Emojis</a></p>
               </div>
-              <img src={require("./style/react.png")} className="language" width="64px" />
+              <img src={reactjs} className="language" width="64px" />
             
             </div>
             <div className="lang"><span>Python</span>
@@ -142,7 +163,7 @@ const About = () => {
                 <span>Python</span>
                 <p><a href="https://github.com/pujagharti/sei50-project4" target="_blank" >Emojis</a></p>
               </div>
-              <img src={require("./style/python.png")} className="language" width="64px" />
+              <img src={python} className="language" width="64px" />
             
             </div>
             <div className="lang"><span>Django</span>
@@ -150,7 +171,7 @@ const About = () => {
                 <span>Django</span>
                 <p><a href="https://github.com/pujagharti/sei50-project4" target="_blank" >Emojis</a></p>
               </div>
-              <img src={require("./style/django.png")} className="language" width="64px" />
+              <img src={django} className="language" width="64px" />
             
             </div>
             <div className="lang"><span>github</span>
@@ -161,7 +182,7 @@ const About = () => {
                 <p><a href="https://github.com/pujagharti/sei-project-3" target="_blank" >Discover your Montreal</a></p>
                 <p><a href="https://github.com/pujagharti/sei50-project4" target="_blank" >Emojis</a></p>
               </div>
-              <img src={require("./style/github.png")} className="language" width="64px" />
+              <img src={python} className="language" width="64px" />
             
             
             </div>
@@ -171,7 +192,7 @@ const About = () => {
                 <p><a href="https://github.com/pujagharti/sei50-project-2-old-version" target="_blank" >Food life</a></p>
                 <p><a href="https://github.com/pujagharti/sei-project-3" target="_blank" >Discover your Montreal</a></p>
               </div>
-              <img src={require("./style/mongodb.png")} className="language" width="64px" />
+              <img src={mongodb} className="language" width="64px" />
             
             </div>
             <div className="lang"><span>MySQL</span>
@@ -179,7 +200,7 @@ const About = () => {
                 <span>MySQL</span>
                 <p><a href="https://github.com/pujagharti/sei50-project4" target="_blank" >Emojis</a></p>
               </div>
-              <img src={require("./style/mysql.png")} className="language" width="64px" />
+              <img src={mysql} className="language" width="64px" />
             
             </div>
             <div className="lang"><span>PostgreSQL</span>
@@ -187,7 +208,7 @@ const About = () => {
                 <span>PostgreSQL</span>
                 <p><a href="https://github.com/pujagharti/sei50-project4" target="_blank" >Emojis</a></p>
               </div>
-              <img src={require("./style/postgresql.png")} className="language" width="64px" />
+              <img src={postgre} className="language" width="64px" />
             
             </div>
             
@@ -195,7 +216,7 @@ const About = () => {
 
           </div>
         </div>
-        <div className="gap horizontal1"> <img src={require('./style/vertical-lines.png')} /> </div>
+        <div className="gap horizontal1"> <img src={vertical} /> </div>
        
 
 
@@ -203,11 +224,11 @@ const About = () => {
 
           <h2 className='contact-header' >Contact</h2>
 
-          <img src={require('./style/received_262920591228311.jpeg')} className="profile" />
+          <img src={photo} className="profile" />
           <div className="about-article left2" >
             <p><b>@</b> - gc.puja1@yahoo.com</p>
-            <p><a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img src={require('./style/linkedin.png')} width="19.5px" /> - linkedin.com/in/puja-gharti</a></p>
-            <p><a href="https://github.com/pujagharti" target="_blank" ><img src={require('./style/github.png')} width="19.5px" /> - github.com/pujagharti</a></p>
+            <p><a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img src={linkedin} width="19.5px" /> - linkedin.com/in/puja-gharti</a></p>
+            <p><a href="https://github.com/pujagharti" target="_blank" ><img src={github} width="19.5px" /> - github.com/pujagharti</a></p>
 
           </div>
         </div>

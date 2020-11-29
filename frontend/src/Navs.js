@@ -1,6 +1,12 @@
 import React, { Fragment } from 'react'
 import { withRouter } from 'react-router-dom'
 
+import home from './style/home.png'
+import skills from './style/woman.png'
+import goal from './style/goal.png'
+
+
+
 const Navs = ({ history }) => {
 
 
@@ -9,15 +15,15 @@ const Navs = ({ history }) => {
     <Fragment>
       <div className="navs">
         <button className="nav" onClick={e=> history.push('/')}>
-          <img src={require('./style/home.png')} height="30px" />
+          <img src={home} height="30px" />
           <span>HOME</span>
         </button>
         <button className="nav" onClick={e=> history.push('/about-me')}>
-          <img src={require('./style/woman.png')} height="30px" />
+          <img src={skills} height="30px" />
           <span>SKILLS</span>
         </button>
         <button className="nav" onClick={e=> history.push('/experience')}>
-          <img src={require('./style/goal.png')} height="30px" />
+          <img src={goal} height="30px" />
           <span>WORK</span>
         </button>
         

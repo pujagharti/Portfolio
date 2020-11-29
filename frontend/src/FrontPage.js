@@ -1,5 +1,14 @@
 import React, { Fragment, useEffect, useRef } from 'react'
 import at from './style/at.png'
+import academy from './style/codeacademy.jpg'
+import sololearn from './style/sololearn.jpg'
+import assembly from './style/1603135530380.jpg'
+import linkedin from './style/linkedin.png'
+import github from './style/github.png'
+
+
+
+
 
 
 const FrontPage = () => {
@@ -55,8 +64,8 @@ const FrontPage = () => {
             <p>follow my social media:</p>
             <p>
             <img className="social" src={at} />
-            <a href="https://github.com/pujagharti" target="_blank" ><img className="social" src={require('./style/github.png')} /></a>
-            <a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img className="social" src={require('./style/linkedin.png')} /></a>
+            <a href="https://github.com/pujagharti" target="_blank" ><img className="social" src={github} /></a>
+            <a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img className="social" src={linkedin} /></a>
             </p>
             </div>
             
@@ -88,15 +97,15 @@ const FrontPage = () => {
               
               <div className="course">
                 <div className="info-box"><p>General Assembly</p></div>
-                <a href="https://generalassemb.ly/" target="_blank" ><img src={require('./style/1603135530380.jpg')} width='32px' alt="General Assembly" /></a>
+                <a href="https://generalassemb.ly/" target="_blank" ><img src={assembly} width='32px' alt="General Assembly" /></a>
               </div>
               <div className="course">
                 <div className="info-box"><p>Solo Learn</p></div>
-              <a href="https://www.sololearn.com/" target="_blank" ><img src={require('./style/sololearn.jpg')} width='32px' alt="Solo Learn" /></a>
+              <a href="https://www.sololearn.com/" target="_blank" ><img src={sololearn} width='32px' alt="Solo Learn" /></a>
               </div>
               <div className="course">
                 <div className="info-box"><p>Code Academy</p></div>
-              <a href="https://www.codecademy.com/" target="_blank" ><img src={require('./style/codeacademy.jpg')} width='32px' alt="Code Academy" /></a>
+              <a href="https://www.codecademy.com/" target="_blank" ><img src={academy} width='32px' alt="Code Academy" /></a>
               </div>
               
             </div>
