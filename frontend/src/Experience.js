@@ -33,7 +33,7 @@ const Experience = () => {
       box1.current.style.transition = 'all 0.6s ease-in'
 
       if (window.scrollY <= 400) {
-        param1.current.style.background = 'rgba(184, 176, 167, 0.5)'
+        param1.current.style.background = 'rgba(200, 200, 200, 0.8)'
         box1.current.style.transform = 'scale(1)'
       } else {
         param1.current.style.background = 'none'
@@ -45,7 +45,7 @@ const Experience = () => {
       box2.current.style.transition = 'all 0.6s ease-in'
 
       if (window.scrollY >= 500 && window.scrollY <= 1200) {
-        param2.current.style.background = 'rgba(184, 176, 167, 0.5)'
+        param2.current.style.background = 'rgba(200, 200, 200, 0.8)'
         box2.current.style.transform = 'scale(1)'
       } else {
         param2.current.style.background = 'none'
@@ -57,7 +57,7 @@ const Experience = () => {
       box3.current.style.transition = 'all 0.6s ease-in'
 
       if (window.scrollY >= 1400 && window.scrollY <= 2000) {
-        param3.current.style.background = 'rgba(184, 176, 167, 0.5)'
+        param3.current.style.background = 'rgba(200, 200, 200, 0.8)'
         box3.current.style.transform = 'scale(1)'
       } else {
         param3.current.style.background = 'none'
@@ -69,7 +69,7 @@ const Experience = () => {
       box4.current.style.transition = 'all 0.6s ease-in'
 
       if (window.scrollY >= 2000) {
-        param4.current.style.background = 'rgba(184, 176, 167, 0.5)'
+        param4.current.style.background = 'rgba(200, 200, 200, 0.8)'
         box4.current.style.transform = 'scale(1)'
       } else {
         param4.current.style.background = 'none'
@@ -201,9 +201,9 @@ const Experience = () => {
 
             <img src={photo} className="profile" />
             <div className="about-article left2" >
-              <p><b>@</b> - gc.puja1@yahoo.com</p>
-              <p><a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img src={linkedin} width="19.5px" /> - linkedin.com/in/puja-gharti</a></p>
-              <p><a href="https://github.com/pujagharti" target="_blank" ><img src={github} width="19.5px" /> - github.com/pujagharti</a></p>
+              <p><b style={{ fontSize: '32px' }}>@</b><a style={{ cursor: 'default' }}>: gc.puja1@yahoo.com</a></p>
+              <p><a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img src={linkedin} width="32px" />: linkedin.com/in/puja-gharti</a></p>
+              <p><a href="https://github.com/pujagharti" target="_blank" ><img src={github} width="32px" />: github.com/pujagharti</a></p>
 
             </div>
           </div>

@@ -217,7 +217,7 @@ const About = () => {
           </div>
         </div>
         <div className="gap horizontal1"> <img src={vertical} /> </div>
-       
+
 
 
         <div className="about-article right2">
@@ -226,11 +226,11 @@ const About = () => {
 
           <img src={photo} className="profile" />
           <div className="about-article left2" >
-            <p><b>@</b> - gc.puja1@yahoo.com</p>
-            <p><a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img src={linkedin} width="19.5px" /> - linkedin.com/in/puja-gharti</a></p>
-            <p><a href="https://github.com/pujagharti" target="_blank" ><img src={github} width="19.5px" /> - github.com/pujagharti</a></p>
+              <p><b style={{ fontSize: '32px' }}>@</b><a style={{ cursor: 'default' }}>: gc.puja1@yahoo.com</a></p>
+              <p><a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img src={linkedin} width="32px" />: linkedin.com/in/puja-gharti</a></p>
+              <p><a href="https://github.com/pujagharti" target="_blank" ><img src={github} width="32px" />: github.com/pujagharti</a></p>
 
-          </div>
+            </div>
         </div>
 
       </div>

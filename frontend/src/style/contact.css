@@ -20,8 +20,18 @@
 {
     background: rgba(184, 176, 167, 0.5);
     border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
-
+.left2 a
+{
+  color: #000;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
 
 
