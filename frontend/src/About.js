@@ -26,6 +26,7 @@ const About = () => {
 
   const article1 = useRef(null)
   const article2 = useRef(null)
+  const article3 = useRef(null)
   
   const handleScroll = () => {
     console.log(window.scrollX, window.scrollY)
@@ -33,8 +34,8 @@ const About = () => {
       article1.current.style.transition = 'all 0.6s ease-in'
 
       if (window.scrollY <= 350) {
-        article1.current.style.background = 'rgba(184, 176, 167, 0.5)'
-        article1.current.style.color = '#fff'
+        article1.current.style.background = 'rgba(184, 176, 167, 0.8)'
+        article1.current.style.color = '#000'
         article1.current.style.transform = 'scale(1)'
       }
       else {
@@ -48,13 +49,28 @@ const About = () => {
       
       article2.current.style.transition = 'all 0.6s ease-in'
       if (window.scrollY >= 200 && window.scrollY <= 850) {
-        article2.current.style.background = 'rgba(184, 176, 167, 0.5)'
-        article2.current.style.color = '#fff'
+        article2.current.style.background = 'rgba(184, 176, 167, 0.8)'
+        article2.current.style.color = '#000'
         article2.current.style.transform = 'scale(1)'
       } else {
         article2.current.style.background = 'none'
         article2.current.style.color = '#000'
         article2.current.style.transform = 'scale(0.9)'
+      }
+    }
+
+    if (article3.current) {
+      article3.current.style.transition = 'all 0.6s ease-in'
+
+      if (window.scrollY >= 1000) {
+        article3.current.style.background = 'rgba(184, 176, 167, 0.8)'
+        article3.current.style.color = '#000'
+        article3.current.style.transform = 'scale(1)'
+      }
+      else {
+        article3.current.style.background = 'none'
+        article3.current.style.color = '#000'
+        article3.current.style.transform = 'scale(0.9)'
       }
     }
 
@@ -222,14 +238,16 @@ const About = () => {
 
         <div className="about-article right2">
 
-          <h2 className='contact-header' >Contact</h2>
+          <h2 className='contact-header'>Interests</h2>
 
           <img src={photo} className="profile" />
-          <div className="about-article left2" >
-              <p><b style={{ fontSize: '32px' }}>@</b><a style={{ cursor: 'default' }}>: gc.puja1@yahoo.com</a></p>
-              <p><a href="https://www.linkedin.com/in/puja-gharti/" target="_blank" ><img src={linkedin} width="32px" />: linkedin.com/in/puja-gharti</a></p>
-              <p><a href="https://github.com/pujagharti" target="_blank" ><img src={github} width="32px" />: github.com/pujagharti</a></p>
-
+          <div className="about-article left2">
+          <div className="tech-article" ref={article3}>
+            I like visiting and exploring new places to experience and develop different parts of myself at different levels, in
+            different places. I am very keen on learning and trying new things, getting involved in various environments and
+            cultures. I love interacting with people, discovering their lifestyles, food, and traditions. Gardening and planting
+            are also something that I enjoy greatly.
+          </div>
             </div>
         </div>
 

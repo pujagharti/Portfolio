@@ -134,10 +134,25 @@
     position: absolute;
     top: 15px;
     right: 15px;
+    
+    transition: all 0.5s ease-in;
+}
+
+.icon-address
+{
+    position: absolute;
+    top: 15px;
+    right: calc(15px + 64px);
+    
+    transition: all 0.5s ease-in;
 }
 .course-icon:hover
 {
-    transition: all 0.5s ease-in;
+    
+    transform: rotate(-10deg);
+}
+.icon-address:hover
+{
     transform: rotate(-10deg);
 }
 
